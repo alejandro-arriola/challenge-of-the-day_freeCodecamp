@@ -1,5 +1,3 @@
-** start of main.py **
-
 def battle(my_army, opposing_army):
     def check_unit(unit):
         if '0' <= unit <= '9':
@@ -31,6 +29,4 @@ def battle(my_army, opposing_army):
     return "We won" if my_wins > ur_wins else ("We lost" if my_wins < ur_wins else "It was a tie")
 
 print(battle("C@T5", "D0G$"))
-
-** end of main.py **
 

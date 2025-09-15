@@ -1,5 +1,3 @@
-** start of main.py **
-
 import math
 
 def is_unnatural_prime(n):
@@ -16,6 +14,3 @@ def is_prime(n):
     return True
 
 print(is_prime(5))
-
-** end of main.py **
-

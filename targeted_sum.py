@@ -1,5 +1,3 @@
-** start of main.py **
-
 def find_target(arr, target):
     indexes = []
 
@@ -12,6 +10,4 @@ def find_target(arr, target):
     return "Target not found"
 
 print(find_target([3, 2, 4, 5], 6))
-
-** end of main.py **
 

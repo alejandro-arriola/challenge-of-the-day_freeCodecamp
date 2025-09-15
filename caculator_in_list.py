@@ -1,5 +1,3 @@
-** start of main.py **
-
 def evaluate(numbers, operators):
     for n in numbers:
         if not isinstance(n, int):
@@ -30,5 +28,4 @@ def evaluate(numbers, operators):
 
 print(evaluate([17, 61, 40, 24, 38, 14], ['+', '%']))
 
-** end of main.py **
 

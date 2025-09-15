@@ -1,5 +1,3 @@
-** start of main.py **
-
 import re
 from collections import Counter
 
@@ -13,6 +11,4 @@ def get_words(paragraph):
     return paragraph
 
 print(get_words("Wonder woman. is a woman"))
-
-** end of main.py **
 

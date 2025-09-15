@@ -1,5 +1,3 @@
-** start of main.py **
-
 import random
 
 def generate_hex(color):
@@ -22,6 +20,3 @@ def generate_hex(color):
 
 print(generate_hex("green"))
 print(generate_hex("green"))
-
-** end of main.py **
-

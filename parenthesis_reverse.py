@@ -1,5 +1,3 @@
-** start of main.py **
-
 def decode(s):
     stack = []
     decoded = []
@@ -23,6 +21,3 @@ def decode(s):
     return "".join(stack)
 
 print(decode("(f(b(dc)e)a)"))
-
-** end of main.py **
-

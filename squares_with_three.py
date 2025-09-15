@@ -1,5 +1,3 @@
-** start of main.py **
-
 def squares_with_three(n):
     counter = 0
 
@@ -10,6 +8,4 @@ def squares_with_three(n):
     return counter
 
 print(squares_with_three(1000))
-
-** end of main.py **
 

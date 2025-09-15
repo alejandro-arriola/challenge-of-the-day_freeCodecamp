@@ -1,5 +1,3 @@
-** start of main.py **
-
 def decode(message, shift):
     lower = "abcdefghijklmnopqrstuvwxyz"
     upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -13,6 +11,4 @@ def decode(message, shift):
     return message.translate(table)
 
 print(decode("Xlmw mw e wigvix qiwweki.", 4))
-
-** end of main.py **
 

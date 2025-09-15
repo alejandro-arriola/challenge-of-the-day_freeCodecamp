@@ -1,5 +1,3 @@
-** start of main.py **
-
 def is_valid_number(n, base):
     n = str(n).lower()
 
@@ -14,6 +12,4 @@ def is_valid_number(n, base):
     return True
 
 print(is_valid_number(2, 2))
-
-** end of main.py **
 
