@@ -1,0 +1,24 @@
+import re
+
+def calculate_tips(meal_price, custom_tip):
+    price = re.search(r'\$(\d+\.\d{2})', meal_price)
+    if price:
+        price = float(price.group(1))
+    else:
+        return "bad price"
+
+    percent = re.search(r'(\d+)\%', custom_tip)
+
+    if percent:
+        percent = int(percent.group(1))
+    else:
+        return "bad tip"
+
+    tips = []
+    tips.append("${:.2f}".format(round(price*.15, 2)))
+    tips.append("${:.2f}".format(round(price*.20, 2)))
+    tips.append("${:.2f}".format(round(price*(percent/100), 2)))
+
+    return tips
+
+print(calculate_tips("$19.85", "9%"))
